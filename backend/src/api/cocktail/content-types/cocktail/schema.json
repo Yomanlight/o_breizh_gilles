@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cocktails",
+  "info": {
+    "singularName": "cocktail",
+    "pluralName": "cocktails",
+    "displayName": "Cocktail",
+    "description": "Les cocktails du bar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Cocktail",
+        "Mocktail",
+        "Biere",
+        "Vin",
+        "Soft"
+      ],
+      "default": "Cocktail"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

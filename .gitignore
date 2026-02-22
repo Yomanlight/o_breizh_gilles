@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build
+.next/
+build/
+dist/
+out/
+
+# Strapi
+.tmp/
+.cache/
+.strapi/
+.strapi-updater.json
+public/uploads/
+
+# Environment (ne jamais commiter les clés !)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

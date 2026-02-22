@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "bar_infos",
+  "info": {
+    "singularName": "bar-info",
+    "pluralName": "bar-infos",
+    "displayName": "Informations Bar",
+    "description": "Informations generales du bar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "instagramUrl": {
+      "type": "string"
+    },
+    "googleMapsUrl": {
+      "type": "string"
+    },
+    "aboutText": {
+      "type": "richtext"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
