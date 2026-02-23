@@ -1,8 +1,0 @@
-[phases.install]
-cmds = ["npm install --legacy-peer-deps @strapi/provider-upload-cloudinary"]
-
-[phases.build]
-cmds = ["npm run build"]
-
-[start]
-cmd = "mkdir -p public/uploads && npm start"
